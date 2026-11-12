@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact Us | Wayfarer</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="nav"><a class="brand" href="index.html">Wayfarer</a><nav><a href="index.html">Home</a><a href="about.html">About Us</a><a href="contact.html">Contact Us</a></nav></header>
+<main class="page"><h1>Contact Us</h1><p>Questions or trip ideas? Reach us using the details below or send us a message.</p>
+<ul class="info"><li><b>Email:</b> hello@wayfarer-travel.example</li><li><b>Phone:</b> +971 50 123 4567</li><li><b>Address:</b> 12 Corniche Road, Ras Al Khaimah, UAE</li></ul>
+<form id="cf" action="#"><label>Name<input type="text" name="name" required></label>
+<label>Email<input type="email" name="email" required></label>
+<label>Message<textarea name="message" rows="5" required></textarea></label>
+<button type="submit">Send message</button><p id="ok" role="status"></p></form></main>
+<footer>&copy; 2026 Wayfarer Travel</footer><script>document.getElementById('cf').addEventListener('submit',e=>{e.preventDefault();document.getElementById('ok').textContent='Thanks! Your message has been sent.';e.target.reset();});</script></body></html>

@@ -1,0 +1,76 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "images/sydney.svg",
+          "description": "A vibrant harbour city known for its Opera House and stunning beaches."
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "images/melbourne.svg",
+          "description": "A cultural hub famous for its art, laneway cafes and sport."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "images/tokyo.svg",
+          "description": "A futuristic metropolis blending neon skyscrapers with historic shrines."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "images/kyoto.svg",
+          "description": "Japan's former capital, rich in temples, gardens and tea houses."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "images/rio.svg",
+          "description": "Famous for Carnival, Sugarloaf Mountain and its golden beaches."
+        },
+        {
+          "name": "Sao Paulo, Brazil",
+          "imageUrl": "images/saopaulo.svg",
+          "description": "A huge city with world-class food, art and nightlife."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "images/angkor.svg",
+      "description": "A sprawling 12th-century temple complex and the largest religious monument in the world."
+    },
+    {
+      "name": "Taj Mahal, India",
+      "imageUrl": "images/taj.svg",
+      "description": "A white marble mausoleum, an icon of love and Mughal architecture."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "images/bora.svg",
+      "description": "Turquoise lagoons and overwater bungalows make it a dream island getaway."
+    },
+    {
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "images/copacabana.svg",
+      "description": "A lively Rio beach with golden sand, sport and sunset views."
+    }
+  ]
+}
